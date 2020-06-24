@@ -14,7 +14,8 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
 //        testTwoSumSolution()
-        testMaxArea()
+//        testMaxArea()
+        testClimbStairs()
     }
     
     func testTwoSumSolution() {
@@ -27,6 +28,11 @@ class ViewController: UIViewController {
     func testMaxArea() {
         let nums = [1,8,6,2,5,4,8,3,7];
         debugPrint(MaxAreaSolution().maxArea(nums))
+    }
+    
+    func testClimbStairs() {
+//        debugPrint(ClimbStairsSolution().climbStairs(4))
+        debugPrint(ClimbStairsSolution().climbStairs01(4))
     }
 
 
