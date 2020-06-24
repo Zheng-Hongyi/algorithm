@@ -13,6 +13,7 @@
 		19D9D4D524A391C1002B345C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 19D9D4D324A391C1002B345C /* Main.storyboard */; };
 		19D9D4D724A391C3002B345C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 19D9D4D624A391C3002B345C /* Assets.xcassets */; };
 		19D9D4DA24A391C3002B345C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 19D9D4D824A391C3002B345C /* LaunchScreen.storyboard */; };
+		19D9D4E324A3925D002B345C /* TwoSumSolution.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19D9D4E224A3925D002B345C /* TwoSumSolution.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		19D9D4D624A391C3002B345C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		19D9D4D924A391C3002B345C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		19D9D4DB24A391C3002B345C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		19D9D4E224A3925D002B345C /* TwoSumSolution.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwoSumSolution.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 		19D9D4CC24A391C1002B345C /* Algorithm */ = {
 			isa = PBXGroup;
 			children = (
+				19D9D4E124A39214002B345C /* Algorithm */,
 				19D9D4CD24A391C1002B345C /* AppDelegate.swift */,
 				19D9D4CF24A391C1002B345C /* SceneDelegate.swift */,
 				19D9D4D124A391C1002B345C /* ViewController.swift */,
@@ -63,6 +66,14 @@
 				19D9D4D624A391C3002B345C /* Assets.xcassets */,
 				19D9D4D824A391C3002B345C /* LaunchScreen.storyboard */,
 				19D9D4DB24A391C3002B345C /* Info.plist */,
+			);
+			path = Algorithm;
+			sourceTree = "<group>";
+		};
+		19D9D4E124A39214002B345C /* Algorithm */ = {
+			isa = PBXGroup;
+			children = (
+				19D9D4E224A3925D002B345C /* TwoSumSolution.swift */,
 			);
 			path = Algorithm;
 			sourceTree = "<group>";
@@ -141,6 +152,7 @@
 				19D9D4D224A391C1002B345C /* ViewController.swift in Sources */,
 				19D9D4CE24A391C1002B345C /* AppDelegate.swift in Sources */,
 				19D9D4D024A391C1002B345C /* SceneDelegate.swift in Sources */,
+				19D9D4E324A3925D002B345C /* TwoSumSolution.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
