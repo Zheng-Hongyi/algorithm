@@ -13,7 +13,8 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
-        testTwoSumSolution()
+//        testTwoSumSolution()
+        testMaxArea()
     }
     
     func testTwoSumSolution() {
@@ -21,6 +22,11 @@ class ViewController: UIViewController {
 //        debugPrint(TwoSumSolution().twoSum(nums, taget))
 //        debugPrint(TwoSumSolution().twoSum01(nums, taget))
         debugPrint(TwoSumSolution().twoSum02(nums, taget))
+    }
+    
+    func testMaxArea() {
+        let nums = [1,8,6,2,5,4,8,3,7];
+        debugPrint(MaxAreaSolution().maxArea(nums))
     }
 
 
