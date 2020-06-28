@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1902D64524A8A23B00CDE582 /* ThreeSumSolution.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1902D64424A8A23B00CDE582 /* ThreeSumSolution.swift */; };
 		19D9D4CE24A391C1002B345C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19D9D4CD24A391C1002B345C /* AppDelegate.swift */; };
 		19D9D4D024A391C1002B345C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19D9D4CF24A391C1002B345C /* SceneDelegate.swift */; };
 		19D9D4D224A391C1002B345C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19D9D4D124A391C1002B345C /* ViewController.swift */; };
@@ -19,6 +20,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1902D64424A8A23B00CDE582 /* ThreeSumSolution.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThreeSumSolution.swift; sourceTree = "<group>"; };
 		19D9D4CA24A391C1002B345C /* Algorithm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Algorithm.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		19D9D4CD24A391C1002B345C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		19D9D4CF24A391C1002B345C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -80,6 +82,7 @@
 				19D9D4E224A3925D002B345C /* TwoSumSolution.swift */,
 				19D9D4E424A39CD5002B345C /* MaxAreaSolution.swift */,
 				19D9D4E624A3A1BF002B345C /* ClimbStairsSolution.swift */,
+				1902D64424A8A23B00CDE582 /* ThreeSumSolution.swift */,
 			);
 			path = Algorithm;
 			sourceTree = "<group>";
@@ -159,6 +162,7 @@
 				19D9D4CE24A391C1002B345C /* AppDelegate.swift in Sources */,
 				19D9D4E724A3A1BF002B345C /* ClimbStairsSolution.swift in Sources */,
 				19D9D4D024A391C1002B345C /* SceneDelegate.swift in Sources */,
+				1902D64524A8A23B00CDE582 /* ThreeSumSolution.swift in Sources */,
 				19D9D4E324A3925D002B345C /* TwoSumSolution.swift in Sources */,
 				19D9D4E524A39CD5002B345C /* MaxAreaSolution.swift in Sources */,
 			);
