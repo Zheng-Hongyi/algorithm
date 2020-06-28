@@ -22,4 +22,25 @@ class MaxAreaSolution {
         }
         return result
     }
+    
+    func maxArea01(_ height: [Int]) -> Int {
+        var result = 0
+        var leftIndex = 0, rightIndex = height.count - 1
+        while leftIndex < rightIndex {
+            let leftValue = height[leftIndex]
+            let rightValue = height[rightIndex]
+            let min = leftValue > rightValue ? rightValue : leftValue
+            let aArea = (rightIndex - leftIndex) * min
+            if result < aArea {
+                result = aArea
+            }
+            if leftValue < rightValue {
+                leftIndex += 1
+            } else {
+                rightIndex -= 1
+            }
+            
+        }
+        return result
+    }
 }
